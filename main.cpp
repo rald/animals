@@ -17,9 +17,9 @@ int main(void) {
 	srand((unsigned)time(NULL));
 	
 	Animal *animals[3] = {
-		new Dog("bantay", 0.03),
-		new Cat("muning", 0.02),
-		new Bird("adarna", 0.01)		
+		new Dog("bantay", 0.1),
+		new Cat("muning", 0.1),
+		new Bird("adarna", 0.1)		
 	};
 
 	int numAnimals=3;
